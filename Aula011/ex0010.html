@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DETRAN</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Sistemas de Multas</h1>
-    <h2>Velocidade Máxima permitida 60Km/h</h2>
-    velocidade do carro <input type="number" name="txtvel" id="txtvel">
-    <input type="button" value="Verificar" onclick="calcular()">
-    <div id="res"></div>
+    <main>
+        <h1>Sistemas de Multas</h1>
+        <h2>Velocidade Máxima permitida 60Km/h</h2>
+        <input class="velo" type="number" name="txtvel" id="txtvel" placeholder="Velocidade do carro">
+        <input class="veri" type="button" value="Verificar" onclick="calcular()">
+        <div id="res"></div>
+    </main>
     <script>
          function calcular(){
             var txtv = document.getElementById('txtvel')
