@@ -4,7 +4,10 @@ do {
     c++
 } while (c <= 10)
 
-
+var d = 1
+for (var d =1;c<10;c++){
+    console.log('d');
+}
 
 /*
 let c = 1
