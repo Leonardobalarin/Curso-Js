@@ -21,7 +21,7 @@ function verificar(){
                 img.setAttribute('src', 'homem-jovem.jpg')
             } else if (idade < 50) {
                 // adulto
-                img.setAttribute('src', 'Sem título.png')
+                img.setAttribute('src', 'homem-adulto.png')
             } else {
                 // idoso
                 img.setAttribute('src', 'homem-idoso.jpg')
@@ -42,7 +42,6 @@ function verificar(){
                 img.setAttribute('src', 'mulher-idosa.jpg')
             }
         }
-        res.style.textAlign = 'center'
         res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
         res.appendChild(img)
     }
