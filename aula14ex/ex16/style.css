@@ -16,6 +16,17 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
     
 }
+div#dados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+div#dados input{
+    background: rgba(83, 83, 134, 0.616);
+    padding: 8px;
+
+}
 footer{
     color: white;
     font-style: italic;
