@@ -13,8 +13,8 @@
     <input type="button" value="Verificar" onclick="testar()">
     <div id="res"></div>
     <script>
+        let res = document.querySelector('div#res')
         function testar() {
-            let res = document.querySelector('div#res')
             let pais = (text.value)
             if (pais == 'brasil'){
                 res.innerHTML = 'Você é brasileiro'
